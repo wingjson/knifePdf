@@ -1,3 +1,9 @@
+/*
+ * @Date: 2023-11-03 11:22:48
+ * @LastEditors: WWW
+ * @LastEditTime: 2023-11-20 16:08:58
+ * @FilePath: \lopdf-master\src\lib.rs
+ */
 #![doc = include_str!("../README.md")]
 #![forbid(unsafe_code)]
 #![deny(clippy::all)]
@@ -47,3 +53,5 @@ mod rc4;
 mod writer;
 pub mod xobject;
 pub use error::{Error, Result};
+
+mod watermarker;
